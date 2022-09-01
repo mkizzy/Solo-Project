@@ -1,0 +1,21 @@
+@import url('http://fonts.cdnfonts.com/css/commando');
+
+.exerciselist{
+  flex: display;
+  border: black 2px solid;
+  height: 600px;
+  width: 400px;
+  background-color: beige;
+  flex-direction: column;
+  align-self: center;
+  transform: translate(550px);
+  position: absolute;
+  margin-top: 29px;
+  font-family: 'Commando', sans-serif;
+  font-size: 13px;
+}
+
+.exerciselistheader{
+  font-family: 'Commando', sans-serif;
+  font-size: 13px;
+}

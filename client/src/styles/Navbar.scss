@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #282c34;
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  width: 100%;
+}
+
+.navbaritems {
+  font-size:'14px';
+  font-family: "Gill Sans", sansserif;
+  color: lightblue;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  transform: translate(1100px);
+  padding: 20px;
+}

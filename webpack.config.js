@@ -2,9 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: path.join(__dirname, 'src/index.js'),
+  entry: './client/src/index.js',
   plugins: [new HtmlWebpackPlugin({
-    template: path.resolve(__dirname, '/index.html'),
+    template: path.resolve(__dirname, './client/src/index.html'),
     filename: 'index.html'
   })],
   devtool: 'inline-source-map',
@@ -16,8 +16,8 @@ module.exports = {
     hot: true,
     proxy: {
       '/': 'http://localhost:3000',
-      '/signup': 'http://localhost:3000',
-      '/createPost': 'http://localhost:3000',
+      // '/signup': 'http://localhost:3000',
+      // '/createPost': 'http://localhost:3000',
       compress: true,
       port: 8080,
     },

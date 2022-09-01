@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import App from './App.jsx'
 
-ReactDOM.render(
-  <h1>Random Exercise Generator</h1>,
-  document.getElementById('root')
+render(
+  <div class='app'>
+    <App/>
+  </div>,
+  document.getElementById('contents')
 );
+
